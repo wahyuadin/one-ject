@@ -51,9 +51,9 @@ class AuthLogin extends Controller
         $model->id_user     = $kodejadi;
         $model->name        = 'Demo Akun';
         $model->email       = 'oneject@administrator.com';
-        $model->nik         = '11223344';
+        $model->nik         = '123456';
         $model->section         = 'Production';
-        $model->rule         = 'admin';
+        $model->rule         = 'user';
         $model->password    = bcrypt('oneject');
         $model->save();
             Alert::success('Success', 'Registrasi Berhasil ! Silahkan Login');
